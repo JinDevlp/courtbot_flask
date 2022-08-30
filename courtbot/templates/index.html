@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <title>Please Enter Your Case Number</title>
+  </head>
+  <body>
+    <div style="margin-top: 50px" class="ui container">
+      <div class="ui center aligned column">
+        <img
+          src="https://democracylab-marlok.s3.amazonaws.com/thumbnails%2Fmark%40democracylab.org%2FnewFile.jpeg_1659546504.8932621.jpeg"
+          alt="court_bot"
+          class="ui centered medium image"
+        />
+      </div>
+      {% if message %}
+      <p class="message">{{ message | safe }}</p>
+      {% endif %}
+      <form action="/submit" method="POST" class="ui center aligned form">
+        <div class="ui field required">
+          <h3>Case Number (ex: CF-1234-5678)</h3>
+          <input
+            style="margin-bottom: 10px"
+            type="text"
+            name="case_number"
+            placeholder="Enter case number"
+            class="ui required field"
+          />
+        </div>
+        <div class="form-group">
+          <h3>Year Filed</h3>
+          <input
+            type="text"
+            name="year_filed"
+            placeholder="Enter year filed"
+            style="margin-bottom: 10px"
+          />
+        </div>
+        <div class="form-group">
+          <h3>County</h3>
+          <input
+            style="margin-bottom: 10px"
+            type="text"
+            name="county"
+            placeholder="Enter county"
+          />
+        </div>
+        <div class="form-group">
+          <h3>Reminder Phone Number (ex:918-123-4567)</h3>
+          <input
+            style="margin-bottom: 10px"
+            type="text"
+            name="phone_number"
+            placeholder="Enter phone number"
+          />
+        </div>
+        <div class="form-group">
+          <h3>Additional Phone Number</h3>
+          <input
+            style="margin-bottom: 10px"
+            type="text"
+            name="additional_phone_number"
+            placeholder="Enter phone number"
+          />
+        </div>
+        <div class="form-group">
+          <h3>Additional Comments</h3>
+          <textarea
+            style="margin-bottom: 20px"
+            name="comments"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Tell us additional comments you would like us to know."
+          ></textarea>
+        </div>
+        <input type="submit" value="Submit" class="large ui yellow button" />
+      </form>
+    </div>
+  </body>
+</html>
