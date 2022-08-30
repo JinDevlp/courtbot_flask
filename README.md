@@ -1,8 +1,8 @@
 08/29/2022 <br>
 Jin Hun Choi :man:
 
-#Practicing building Web application using Python, Postgresql, Flask, Heroku. <br>
-##Volunteering for B.C. Franklin Legal Clinic (BCFLC) as Back-End Developer :exclamation:
+# Practicing building Web application using Python, Postgresql, Flask, Heroku. <br>
+## Volunteering for B.C. Franklin Legal Clinic (BCFLC) as Back-End Developer :exclamation:
 
 Client will submit a form online and their data will be stored in the database.<br>
 Their database information then will be checked with their court case-number.<br>
