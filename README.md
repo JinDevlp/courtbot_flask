@@ -1,7 +1,7 @@
 08/29/2022 <br>
 Jin Hun Choi
 
-# Practicing building Web application using Python, Postgresql, Flask, Heroku. <br>
+# Building Web application using Python, Postgresql, Flask, Heroku. <br>
 ## Volunteering for B.C. Franklin Legal Clinic (BCFLC) as Back-End Developer :exclamation:
 ## Courtbot https://court.bot/
 ## DemocracyLab https://www.democracylab.org/projects/tulsa-courtbot
