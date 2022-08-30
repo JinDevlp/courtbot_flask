@@ -1,15 +1,15 @@
 08/29/2022 <br>
 Jin Hun Choi :man:
 
-Practicing building Web application using Python, Postgresql, Flask, Heroku. <br>
-Volunteering for B.C. Franklin Legal Clinic (BCFLC) as Back-End Developer :exclamation:
+#Practicing building Web application using Python, Postgresql, Flask, Heroku. <br>
+##Volunteering for B.C. Franklin Legal Clinic (BCFLC) as Back-End Developer :exclamation:
 
 Client will submit a form online and their data will be stored in the database.<br>
 Their database information then will be checked with their court case-number.<br>
 Update the client with their case status.<br>
 
 
-What is CourtBot?<br>
+**What is CourtBot?<br>
 COURTBOT is a text-message app that helps keep everything on track. After cases are booked, clients can text their case number to COURTBOT to receive automatic reminders of court dates. Research shows that reminders work.<br>
 
 Why CourtBot?<br>
