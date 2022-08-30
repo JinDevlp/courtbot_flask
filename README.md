@@ -3,10 +3,11 @@ Jin Hun Choi :man:
 
 # Practicing building Web application using Python, Postgresql, Flask, Heroku. <br>
 ## Volunteering for B.C. Franklin Legal Clinic (BCFLC) as Back-End Developer :exclamation:
-
-Client will submit a form online and their data will be stored in the database.<br>
-Their database information then will be checked with their court case-number.<br>
-Update the client with their case status.<br>
+## Courtbot <br>
+[https://court.bot/]
+- Client will submit a form online and their data will be stored in the database.<br>
+- Their database information then will be checked with their court case-number.<br>
+- Update the client with their case status.<br>
 
 
 **What is CourtBot?**<br>
