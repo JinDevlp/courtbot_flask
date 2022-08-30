@@ -4,24 +4,24 @@ Jin Hun Choi :man:
 Practicing building Web application using Python, Postgresql, Flask, Heroku. <br>
 Volunteering for B.C. Franklin Legal Clinic (BCFLC) as Back-End Developer :exclamation:
 
-Client will submit a form online and their data will be stored in the database.
-Their database information then will be checked with their court case-number.
-Update the client with their case status.
+Client will submit a form online and their data will be stored in the database.<br>
+Their database information then will be checked with their court case-number.<br>
+Update the client with their case status.<br>
 
 
-What is CourtBot?
-COURTBOT is a text-message app that helps keep everything on track. After cases are booked, clients can text their case number to COURTBOT to receive automatic reminders of court dates. Research shows that reminders work.
+What is CourtBot?<br>
+COURTBOT is a text-message app that helps keep everything on track. After cases are booked, clients can text their case number to COURTBOT to receive automatic reminders of court dates. Research shows that reminders work.<br>
 
-Why CourtBot?
+Why CourtBot?<br>
 
-LESS BUREAUCRACY
-Around 25% of the people in Tulsa County Jail are waiting for their cases to be heard, costing taxpayers up to $25,000 per day. When clients attend their court cases, more small fines are collected, and jail space is freed for more serious offenders. Remembering to attend court can help break the cycle of fines and jail time.
+LESS BUREAUCRACY<br>
+Around 25% of the people in Tulsa County Jail are waiting for their cases to be heard, costing taxpayers up to $25,000 per day. When clients attend their court cases, more small fines are collected, and jail space is freed for more serious offenders. Remembering to attend court can help break the cycle of fines and jail time.<br>
 
 
-FEWER FINES
-Failure-to-appear and failure-to-pay fines can quickly snowball, especially for those living paycheck-to-paycheck. CourtBot helps clients avoid mistakes that burden them and the criminal justice system. Government done well can help.
-Code for Tulsa <> Court.Bot BC Franklin Law Center UTulsa
-COURTBOT is a text-message app that helps keep everything on track. After cases are booked, clients can text their case number for updates.
+FEWER FINES<br>
+Failure-to-appear and failure-to-pay fines can quickly snowball, especially for those living paycheck-to-paycheck. CourtBot helps clients avoid mistakes that burden them and the criminal justice system. Government done well can help.<br>
+Code for Tulsa <> Court.Bot BC Franklin Law Center UTulsa<br>
+COURTBOT is a text-message app that helps keep everything on track. After cases are booked, clients can text their case number for updates.<br>
 
 
 
