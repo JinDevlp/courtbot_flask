@@ -1,5 +1,5 @@
 08/29/2022 <br>
-Jin Hun Choi :man:
+Jin Hun Choi
 
 # Practicing building Web application using Python, Postgresql, Flask, Heroku. <br>
 ## Volunteering for B.C. Franklin Legal Clinic (BCFLC) as Back-End Developer :exclamation:
