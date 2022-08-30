@@ -9,7 +9,7 @@ Their database information then will be checked with their court case-number.<br
 Update the client with their case status.<br>
 
 
-**What is CourtBot?<br>
+**What is CourtBot?**<br>
 COURTBOT is a text-message app that helps keep everything on track. After cases are booked, clients can text their case number to COURTBOT to receive automatic reminders of court dates. Research shows that reminders work.<br>
 
 Why CourtBot?<br>
