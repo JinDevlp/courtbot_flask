@@ -1,17 +1,19 @@
 from email import message
 from flask import Flask, render_template, request
 from flask_sqlalchemy import SQLAlchemy
+import sys
+import config
 import datetime
 from send_mail import send_mail
 
 app = Flask(__name__)
 
-ENV = 'prod'
+ENV = sys.argv[2]
 
 if ENV == 'dev':
     app.debug = True
     app.config['SQLALCHEMY_DATABASE_URI'] = '#####'
-else:
+elif ENV == 'prod':
     app.debug = False
     app.config['SQLALCHEMY_DATABASE_URI'] = '#####'
 
