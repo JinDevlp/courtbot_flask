@@ -13,7 +13,7 @@ if ENV == 'dev':
     app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres@localhost:5432/courtbot'
 else:
     app.debug = False
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://syhcgvgpknitzk:560ead54f91abaa1c132fc3fab1ababf9516ef759c3f66c405aec5dbe7890729@ec2-44-205-63-142.compute-1.amazonaws.com:5432/d9pgc8kfbg3jpa'
+    app.config['SQLALCHEMY_DATABASE_URI'] = '#####'
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
