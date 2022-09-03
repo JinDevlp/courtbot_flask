@@ -68,6 +68,7 @@ def submit():
 
         if case_number == '' or year_filed == '' or county == '' or phone_number == '':
             return render_template('index.html', message='Please enter required fields')
+            # user redirect instead of render template 
         if db.session.query(Reminder).filter(Reminder.case_number == case_number).count() == 0:
             data = Reminder(case_number, year_filed, county, phone_number,
                             additional_phone_number, comments)
